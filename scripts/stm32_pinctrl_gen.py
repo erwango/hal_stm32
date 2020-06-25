@@ -48,7 +48,7 @@ PINCTRL_TEMPLATE = """
 PINCTRL_GROUP_TEMPLATE = "\t\t\t/* {group} */\n"
 """pinctrl group template."""
 
-PINCTRL_ENTRY_TEMPLATE = "\t\t\tDT_STM32_{signal}({port}, {pin}, {periph}, AF{af})\n"
+PINCTRL_ENTRY_TEMPLATE = "\t\t\tDT_STM32_{signal}({port}, {pin}, {periph}, AF{af});\n"
 """pinctrl entry template."""
 
 PINCTRL_MAPPINGS = [
