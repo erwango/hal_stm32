@@ -5342,6 +5342,22 @@ __STATIC_INLINE uint32_t LL_RCC_GetConfigSecure(void)
   * @}
   */
 
+
+/** @defgroup LL_RCC_Aliased_Functions
+  * @{
+  */
+#define LL_RCC_PLL_IsReady  LL_RCC_PLL1_IsReady
+#define LL_RCC_PLL_Enable   LL_RCC_PLL1_Enable
+#define LL_RCC_PLL_Disable  LL_RCC_PLL1_Disable
+
+#define LL_RCC_MSI_IsReady  LL_RCC_MSIS_IsReady
+#define LL_RCC_MSI_Enable   LL_RCC_MSIS_Enable
+#define LL_RCC_MSI_Disable  LL_RCC_MSIS_Disable
+#define LL_RCC_MSI_SetRange  LL_RCC_MSIS_SetRange
+/**
+  * @}
+  */
+
 #if defined(USE_FULL_LL_DRIVER)
 /** @defgroup RCC_LL_EF_Init De-initialization function
   * @{

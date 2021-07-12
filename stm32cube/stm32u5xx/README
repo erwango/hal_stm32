@@ -44,4 +44,10 @@ Patch List:
     -Added stm32cube/stm32u5xx/drivers/include/stm32_assert.h
     -Removed unused stm32cube/stm32u5xx/drivers/include/stm32_assert_template.h
 
+   *Add function redefinitions for PLL1 and MSIS related functions to
+    allow compatibility with other series LL API.
+   Impacted file:
+   -drivers/include/stm32u5xx_ll_rcc.h
+   ST Internal reference: 109777, 110536
+
    See Release_Notes.html from STM32Cube
